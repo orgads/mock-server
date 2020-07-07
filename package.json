@@ -1,0 +1,24 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "Azure Mock Server",
+  "main": "mock-server.js",
+  "scripts": {
+    "build": "tsc",
+    "run": "node mock-server.js"
+  },
+  "keywords": [],
+  "author": "AudioCodes Ltd.",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "@types/node": "^12.12.48",
+    "@types/throttle": "^1.0.0",
+    "@types/ws": "^7.2.6",
+    "express": "^4.17.1",
+    "incremental-average": "^1.1.0",
+    "throttle": "^1.0.3",
+    "typescript": "^3.9.6",
+    "ws": "^7.3.1"
+  }
+}
