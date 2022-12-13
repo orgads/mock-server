@@ -185,7 +185,7 @@ const send = (ws: MockWebSocket, str: string) => {
   const msg = str.replace(/\n/gu, '\r\n');
   if (logSent)
     logger.info('sending: ', msg);
-  return new Promise((resolve, reject) => ws.send(msg, {}, (err) => {
+  return new Promise<void>((resolve, reject) => ws.send(msg, {}, (err) => {
     if (err)
       reject(err);
     else
