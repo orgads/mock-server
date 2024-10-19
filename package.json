@@ -15,7 +15,7 @@
     "@types/node": "^20.16.5",
     "@types/throttle": "^1.0.4",
     "@types/ws": "^8.5.12",
-    "express": "^4.20.0",
+    "express": "^4.21.1",
     "incremental-average": "^1.1.0",
     "throttle": "^1.0.3",
     "typescript": "^5.6.2",
